@@ -846,24 +846,30 @@ body {
 .footer-text {
   margin-block: 10px 30px;
 }
-
 .social-list {
   display: flex;
   gap: 10px;
+  width: 200px;
 }
-
-.social-link {
+.social-list li {
   background-color: var(--indigo-dye);
   color: var(--white);
   font-size: 20px;
   padding: 12px;
   transition: var(--transition);
+  width: 200px;
 }
-
-.social-link:is(:hover, :focus) {
+.social-list li a {
+  text-decoration: none;
+  color: inherit;
+}
+.social-list li a:hover {
+  text-decoration: underline;
+}
+.social-list:is(:hover, :focus) {
   background-color: var(--prussian-blue);
+  width: 200px;
 }
-
 .footer-list-title {
   font-size: var(--fs-6);
   max-width: max-content;
