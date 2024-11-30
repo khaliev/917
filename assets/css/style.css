@@ -849,7 +849,7 @@ body {
 .social-list {
   display: flex;
   gap: 10px;
-  width: 200px;
+  width: 150px;
 }
 .social-list li {
   background-color: var(--indigo-dye);
@@ -857,29 +857,29 @@ body {
   font-size: 20px;
   padding: 12px;
   transition: var(--transition);
-  width: 200px;
 }
 .social-list li a {
   text-decoration: none;
   color: inherit;
+  display: flex;
+  align-items: center;
 }
-.social-list li a:hover {
-  text-decoration: underline;
-}
-.social-list:is(:hover, :focus) {
+.social-list li:hover {
   background-color: var(--prussian-blue);
-  width: 200px;
 }
-.footer-list-title {
+
+.social-list li a ion-icon {
+  transition: var(--transition);
+}
+.social-list li:hover ion-icon {
+  transform: scale(1.2);
+}
+.social-list li:hover ion-icon .footer-list-title {
   font-size: var(--fs-6);
   max-width: max-content;
   padding-block-end: 10px;
   border-block-end: 3px solid var(--dark-orange);
   margin-block-end: 20px;
-}
-
-.footer-link {
-  padding-block: 6px;
 }
 
 .footer-bottom {
