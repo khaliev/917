@@ -848,7 +848,7 @@ body {
 }
 .social-list {
   display: flex;
-  gap: 10px;
+  gap: 5px;
   width: 150px;
 }
 .social-list li {
@@ -872,7 +872,7 @@ body {
   transition: var(--transition);
 }
 .social-list li:hover ion-icon {
-  transform: scale(1.2);
+  transform: scale(1.3);
 }
 .social-list li:hover ion-icon .footer-list-title {
   font-size: var(--fs-6);
