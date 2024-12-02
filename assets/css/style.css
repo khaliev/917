@@ -883,7 +883,7 @@ body {
 }
 
 .footer-bottom {
-  padding-block: 40px;
+  padding-block: 42px;
   border-block-start: 1px solid var(--prussian-blue);
   font-size: var(--fs-9);
   color: var(--indigo-dye);
